@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "acheron_Components")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Components.pretty")(options "")(descr ""))
+  (lib (name "acheron_Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Connectors.pretty")(options "")(descr ""))
+  (lib (name "acheron_Graphics")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Graphics.pretty")(options "")(descr ""))
+  (lib (name "acheron_Hardware")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Hardware.pretty")(options "")(descr ""))
+  (lib (name "acheron_MXH_metalrings")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_MXH_metalrings.pretty")(options "")(descr ""))
+  (lib (name "Launchpad")(type "KiCad")(uri "${KIPRJMOD}/libraries/Launchpad.pretty")(options "")(descr ""))
+)
