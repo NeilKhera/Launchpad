@@ -4553,7 +4553,7 @@
   (symbol (lib_id "power:+3.3V") (at 355.346 22.606 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 741337dd-a049-44da-82e1-49e71de05852)
-    (property "Reference" "#PWR?" (id 0) (at 355.346 26.416 0)
+    (property "Reference" "#PWR0103" (id 0) (at 355.346 26.416 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 355.346 19.0302 0))
@@ -4730,7 +4730,7 @@
     (property "Value" "nRF52840" (id 1) (at 70.485 105.7879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm" (id 2) (at 75.311 179.451 0)
+    (property "Footprint" "Launchpad:NORDIC_NRF52840-QIAA-R7" (id 2) (at 75.311 179.451 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html" (id 3) (at 58.801 57.531 0)
@@ -5039,7 +5039,7 @@
   (symbol (lib_id "power:+3.3V") (at 335.026 22.479 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9b7561f2-525f-4401-8115-fe7c22ca1458)
-    (property "Reference" "#PWR?" (id 0) (at 335.026 26.289 0)
+    (property "Reference" "#PWR0104" (id 0) (at 335.026 26.289 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 335.026 18.9032 0))
@@ -5797,6 +5797,12 @@
     (path "/4bb0f074-0899-4d8b-a166-8e4c334e596e"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
+    (path "/741337dd-a049-44da-82e1-49e71de05852"
+      (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/9b7561f2-525f-4401-8115-fe7c22ca1458"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/8bf8c9e3-9269-42a5-b2e1-ce6402558f33"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
@@ -5916,12 +5922,6 @@
     )
     (path "/3cc5988a-c61c-4f61-8570-c35292060716"
       (reference "#PWR0179") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/741337dd-a049-44da-82e1-49e71de05852"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/9b7561f2-525f-4401-8115-fe7c22ca1458"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/b50f850f-2155-4676-83ef-ac40cbbbd491"
       (reference "AE1") (unit 1) (value "Antenna_Chip") (footprint "Launchpad:2450AT42A100E")
@@ -6089,7 +6089,7 @@
       (reference "SW2") (unit 1) (value "RotaryEncoder_Switch") (footprint "Launchpad:ALPS_EC11E")
     )
     (path "/8672b5fa-29e7-42e6-999b-e98dd9b8d381"
-      (reference "U1") (unit 1) (value "nRF52840") (footprint "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm")
+      (reference "U1") (unit 1) (value "nRF52840") (footprint "Launchpad:NORDIC_NRF52840-QIAA-R7")
     )
     (path "/4bf4a27a-9060-444b-a6cd-2160d669a30d"
       (reference "U2") (unit 1) (value "MCP73831-2-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
